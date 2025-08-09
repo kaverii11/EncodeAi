@@ -78,17 +78,10 @@ encode-ai-website/
 ## 🎨 Customization
 
 ### Colors
-The website uses a custom color palette defined in `tailwind.config.ts`:
-- **Primary**: Blue shades for main brand elements
-- **Accent**: Purple shades for highlights and CTAs
-- **Gray**: Various shades for text and backgrounds
-
-### Content
-Update the following files to customize content:
-- Club information: Update data arrays in each page component
-- Team members: Modify the `team` array in `src/app/about/page.tsx`
-- Events: Update event data in respective page components
-- Contact information: Modify contact details in `src/app/contact/page.tsx`
+The website uses a custom colour palette defined in `tailwind.config.ts`:
+- **Primary**: black shades for main brand elements
+- **Accent**: grey shades for highlights and CTAs
+- **Grey**: Various shades for text and backgrounds
 
 ## 🔧 API Routes
 
@@ -106,21 +99,10 @@ Update the following files to customize content:
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
+### Vercel 
 1. Push your code to GitHub
 2. Connect your repository to Vercel
 3. Deploy automatically with zero configuration
-
-### Manual Deployment
-1. **Build the project**
-   ```bash
-   npm run build
-   ```
-
-2. **Start the production server**
-   ```bash
-   npm start
-   ```
 
 ## 📱 Mobile Responsiveness
 
